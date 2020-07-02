@@ -1,0 +1,9 @@
+Main Hand:
+Bow=46
+Carrot-on-a-stick=47
+
+
+Off Hand:
+Orb of Haste=1
+Bow=46
+Crossbow=48

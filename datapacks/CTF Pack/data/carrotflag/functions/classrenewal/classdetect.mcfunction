@@ -1,0 +1,17 @@
+execute as @s[scores={Class=1}] run function carrotflag:classrenewal/guude
+execute as @s[scores={Class=2}] run function carrotflag:classrenewal/bear
+execute as @s[scores={Class=3}] run function carrotflag:classrenewal/bore
+execute as @s[scores={Class=4}] run function carrotflag:classrenewal/pause
+execute as @s[scores={Class=5}] run function carrotflag:classrenewal/beef
+execute as @s[scores={Class=6}] run function carrotflag:classrenewal/etho
+execute as @s[scores={Class=7}] run function carrotflag:classrenewal/mhykol
+execute as @s[scores={Class=8}] run function carrotflag:classrenewal/kurt
+execute as @s[scores={Class=9}] run function carrotflag:classrenewal/nebris
+execute as @s[scores={Class=10}] run function carrotflag:classrenewal/seth
+execute as @s[scores={Class=11}] run function carrotflag:classrenewal/baj
+execute as @s[scores={Class=12}] run function carrotflag:classrenewal/arkas
+execute as @s[scores={Class=13}] run function carrotflag:classrenewal/coestar
+execute as @s[scores={Class=14}] run function carrotflag:classrenewal/pyro
+execute as @s[scores={Class=15}] run function carrotflag:classrenewal/chad
+execute as @s[scores={Class=16}] run function carrotflag:classrenewal/jsano
+execute as @s[scores={Class=17}] run function carrotflag:classrenewal/aurey

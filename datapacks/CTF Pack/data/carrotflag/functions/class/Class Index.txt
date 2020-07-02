@@ -1,0 +1,1104 @@
+####FORMAT
+	ItemType
+			ItemName
+			ItemLore
+					Enchantment1
+					EnchantmentX
+							Attribute1
+							AttributeX
+									Durability
+											Color/HeadType/Banner/EntityTag
+													Count
+															Tags
+	Potions:
+	ItemType
+			PotionType1
+			PotionTypeX
+					PotionDuration1
+					PotionDurationX
+							ItemName
+							ItemLore
+									EnchantmentX
+											Count
+													Color
+	Enchanted Books:
+	ItemType
+			StoredEnchant
+					Count
+					
+####DEATH REGEAR RULES
+	Binding Armor Rate of Return(RoR): 100%
+	Non-bound Armor RoR: 70%
+	Common Items RoR: 70%
+	Rare Items RoR: 50%
+	Specialty Items RoR: 20%
+	Ultimate Items RoR: 1%
+	
+####CLASS RECHARGE RULES
+	Binding Armor Rate of Renewal(RoR): 100%
+	Non-bound Armor RoR: 0%
+	Common Items RoR: 60%
+	Rare Items RoR: 40%
+	Specialty Items RoR: 20%
+	Ultimate Items RoR: 1%
+			
+	Specialty Item RoR is 70% if already existing in inventory, to encourage item repair via Recharge
+	
+###GUUDE
+
+	player_head
+			Guude
+			Bone a fish, it's a great n/ hobby
+					Protection 1
+					Curse of Binding
+					Curse of Vanishing
+							X
+									X
+											SkullOwner:{Id:"0a0f2ed7-29fe-46cf-b755-48148c428306",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZiMjYwMzFjODRkZjgzOTY0MThiNGYwZGM0MDJhZDU4NzJjMTI1MDNiNWFmZGRiZTk4MGY5OTU4MjgwZGQ5MiJ9fX0="}]}}
+	leather_chestplate
+			X
+					Curse of Vanishing
+					X
+							X
+									X
+											3125013
+	leather_leggings
+			X
+					Curse of Vanishing
+					X
+							X
+									X
+											3125013	
+	leather_boots
+			X
+					Curse of Vanishing
+					X
+							X
+									X
+											3125013	
+	shield
+			Shield of the Gods
+			*Someone's* god, anyway.
+					Curse of Vanishing
+					X
+							offhand: knockbackResistance 0.5
+							X
+									Unbreakable
+											Patterns:[{Pattern:"moj",Color:5},{Pattern:"tts",Color:10},{Pattern:"bts",Color:10}],Base:7
+	obsidian
+			Build a Wall
+			A guude wall building defense
+					Unbreaking 10
+					Curse of Vanishing
+							X
+									X
+											X
+													12
+	villager_spawn
+			Wall Tradesman
+			May scam you. n/ WARNING: You only get one!
+					Persistence required
+					diamond_block x1=Build a Wall x12
+					iron_block x2=end_stone x16
+	oak_sign
+			Sign Master
+			Attracts donations while keeping n/ out the creeps.
+					Knockback 4				
+					Unbreaking 3
+					Sharpness 3
+					Curse of Vanishing
+							mainhand: -2.0 attackSpeed
+							
+###BEAR
+	player_head
+			Bear Suit
+			Maybe someone will throw n/ $300 your way
+					Protection 1
+					Curse of Binding
+					Curse of Vanishing
+							X
+									X
+											SkullOwner:{Id:"9cbf1d20-53c2-4f50-9cfe-5eff34e5360d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFiMTc4ZjVjZGQ3NTBmMGUzNTY4NjBhYTU1MzkxNTNlYjJhYmVjMWUxNDZjYTU3YzY1ZDI1YTVkZjhmZGZlIn19fQ=="}]}}
+	leather_chestplate
+			X
+					Protection 1
+					Curse of Vanishing
+							X
+									X
+											16777215
+	leather_leggings
+			X
+					Protection 1
+					Curse of Vanishing
+							X
+									X
+											16777215
+	leather_boots
+			X
+					Protection 1
+					Curse of Vanishing
+							X
+									X
+											16777215	
+	spawn_polar_bear
+			Papa Bear
+			Someone forgot their bread and milk.
+					Curse of Vanishing
+					team-specific give
+					Aggro=True
+	splash_potion
+			slowness
+					undefined
+							Speedy Freeze
+							It gets chilly up north...
+									Curse of Vanishing
+	quartz
+			Bear Claw
+			Run
+					Sharpness 4
+					Curse of Vanishing
+							Offhand: 1.0 armor
+							Offhand: 1.0 armorToughness
+							Offhand: 0.03 movementSpeed
+							Mainhand: -2.5 attackSpeed
+	lingering_potion
+			Blindness
+			Glowing
+					560t
+					2000t
+							Bear Brew
+							Makes em prime targets
+									Curse of Vanishing
+											1
+													CustomPotionColor:16777215
+	snowball
+			Frozen Water
+			Throw it and where it lands a block of ice forms! n/ Good for trapping players.
+					Curse of Vanishing
+					X
+							X
+									X
+											X
+													3
+###Bore
+	player_head
+			GuudeBore
+			#GuudeBore
+					Protection 1
+					Curse of Binding
+					Curse of Vanishing
+							X
+									X
+											SkullOwner:{Id:"0a0f2ed7-29fe-46cf-b755-48148c428306",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZiMjYwMzFjODRkZjgzOTY0MThiNGYwZGM0MDJhZDU4NzJjMTI1MDNiNWFmZGRiZTk4MGY5OTU4MjgwZGQ5MiJ9fX0="}]}}
+	leather_chestplate
+			X
+					Curse of Vanishing
+							X
+									X
+											15920483
+	golden_leggings
+			Miner's Trousers
+			Thankfully not a minor's!
+					Blast Protection 3
+					Feather Falling 1
+					Fire Protection 1
+					Curse of Binding
+					Curse of Vanishing
+							X
+									Unbreakable
+	leather_boots
+			X
+					Curse of Vanishing
+							X
+									X
+											15920195
+	diamond_pickaxe
+			BORE
+			BOREBOREBORE
+					Unbreaking 10
+					Efficiency 4
+					Fortune 2
+					Curse of Vanishing
+							Mainhand: -6.0 Armor
+	golden_pickaxe
+			Dwarven Battlepick
+			FACEBORE
+					Sharpness 5
+					Mending 1
+					Looting 5
+					Sweeping Edge 3
+					Curse of Vanishing
+	player_head
+			Orb of Haste
+			Found deep within the Bore n/ Offhand Item
+					Curse of Vanishing
+							X
+									X
+											SkullOwner:{Id:"948d2211-0eec-4bd9-a7b7-8679892f13b5",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM2YmFjZDM2ZWQ2MGY1MzMxMzhlNzU5YzQyNTk0NjIyMmI3OGVkYTZiNjE2MjE2ZjZkY2MwOGU5MGQzM2UifX19"}]}}
+	paper
+			Natural Ability
+			The bore has been blessed with constant vision... n/ must have eaten a lot of carrots! n/ Note: This item isn't needed.
+###PAUSE
+	player_head
+			Pause
+			Enemy of Guude
+					Protection 1
+					Curse of Binding
+					Curse of Vanishing
+							X
+									X
+											SkullOwner:{Id:"1f9e54eb-874e-4f7a-a099-5747d79f48cc",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmVjMzYwZGU4ZGUwMTgyZGY2MWQ0YmJmNDA3YjRhNWIzYzY5NDJhYTRmOWI0Yjg1NzNiOTIxZWUzMGFhOTYifX19"}]}}
+	leather_chestplate
+			X
+					Curse of Vanishing
+							X
+									X
+											13721132
+	leather_leggings
+			X
+					Curse of Vanishing
+	leather_boots
+			X
+					Curse of Vanishing
+							X
+									X
+											13721116
+	golden_apple
+			$1000 Apple
+			#ForTheHorse
+					Curse of Vanishing
+							X
+									X
+											X
+													3
+	spawn_horse
+			Prime Stallion
+			Raised from the finest feed!
+					Curse of Vanishing
+							X
+									X
+											{id:"minecraft:horse",Variant:0,CustomName:"#ForTheHorse",CustomNameVisible:1,SaddleItem:{id:saddle,Count:1},Age:10000,Tame:1}}
+	golden_horse_armor
+			Battle Armor
+			Almost as expensive as the apple! n/ Grants buffs to the wearing horse.
+					Protection 5
+					Curse of Vanishing
+							Buffs Horse:
+							Speed 1
+							Regeneration 1
+							Charger, a special effect that damages enemy team in range, with a cooldown and special effects
+###BEEF
+	player_head
+			Vintaged Beef
+			Butchered and ready to n/ be grilled
+					Protection 1
+					Curse of Binding
+					Curse of Vanishing
+							X
+									X
+											SkullOwner:{Id:"977c0f88-4385-4418-bcd3-52e5b9ac176d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlMzU5NTBjZmE4MTJhZTNjOGJjNzE2Y2FmYjRiYzI1ZGJjZDA3ODE3MDllMWEyNTkzMWYxYjE1ZDNlMjYifX19"}]}}
+	leather_chestplate
+			X
+					Curse of Vanishing
+	iron_leggings
+			Fake Legs
+			An ironclad secret
+					Blast Protection 1
+					Fire Protection 1
+					Protection 1
+					Curse of Binding
+					Curse of Vanishing
+	chainmail_boots
+			Padded Boots
+			Don't pull a Beef
+					Fire Protection 2
+					Feather Falling 5
+					Curse of Binding
+					Curse of Vanishing
+	beef
+			Angel Burger
+			Throw it under you to place it in the air!
+					Curse of Vanishing
+							X
+									X
+											X
+													2
+	player_head
+			Chunk of Meat
+			Beat them with your meat
+					Sharpness 1
+					Curse of Vanishing 1
+							Offhand: 2.0 armor
+									X
+											SkullOwner:{Id:"0a6c1cfd-00c7-489e-b899-4e77a308a191",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFiZDkzNTk2YTM0NjRhNWU3NWYyODI5ZTFiYmM3MmY3Njk4MzhmOWQ5MWJjOWM4NDk0ZGFiYzJjMzk3NjYifX19"}]}}
+	potion
+			Levitation 2
+					900t
+							The Dropper
+							The fall down might not be as fun...
+									Curse of Vanishing
+											1
+													Color: 63207
+	splash_potion
+			Glowing
+			Levitation 3
+					200t
+					200t
+							Cloud Grazer
+							While you fall, they fly
+	paper
+			Natural Ability
+			Having an affinity for heights, n/ Beef can jump higher than others! n/ Note: This item is not needed.
+###ETHO
+	player_head
+			Etho
+			Redstoner by day n/ ninja by night
+					Protection 1
+					Curse of Binding
+					Curse of Vanishing
+							X
+									X
+											SkullOwner:{Id:"adbb4cb4-3aa9-4e97-982a-683c70a03ada",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQyNzViZGJkZDQ0NDFkM2MxOWZiOWEwZDY4N2RhM2EzYzRlNjAzMTRhYmYxOWVkZTZhYjJhNzczNDA1OTU0In19fQ=="}]}}
+	leather_chestplate
+			X
+					Curse of Vanishing
+							X
+									X
+											15
+	leather_leggings
+			X
+					Curse of Vanishing
+							X
+									X
+											15
+	leather_boots
+			X
+					Curse of Vanishing
+							X
+									X
+											15					
+	diamond_hoe
+			Your Mom
+			The finest hoe around
+					Lure 10
+					Curse of Vanishing
+							Offhand: 1.0 luck
+	nether_star
+			Ninja Star
+			Looks painful
+					Sharpness 7
+					Curse of Vanishing
+							Mainhand/Offhand: -0.5 attackSpeed
+	light_blue_shulker_box
+			Nexus V2
+			Your own personal nexus n/ If only you could finish it...
+	ender_pearl
+			The Ender Ender 3.0
+			How many Enders could an Ender Ender End n/ if an Ender Ender could End Enders?
+					Curse of Vanishing
+###Mhykol
+	player_head
+			Mhykol
+			New phone who dis
+					Protection 1
+					Curse of Binding
+					Curse of Vanishing
+							X
+									X
+											mhykolhead
+	leather_chestplate
+			X
+					Curse of Vanishing
+							X
+									X
+											3619276
+	leather_leggings
+			X
+					Curse of Vanishing
+							X
+									X
+											3619276
+	leather_boots
+			X
+					Curse of Vanishing
+							X
+									X
+											3619276
+	potion
+			invisibility
+					undefined
+							Potion of Forgetting
+							Who am [I-obfuscated]?
+									Curse of Vanishing
+	pumpkin
+			Pumpkin Men
+			Maybe this will remind n/ them you exist!
+					Curse of Vanishing
+							Offhand: 1.0 followRange
+							Offhand: 0.1 speed
+	splash_potion
+			Slowness 2
+			Mining Fatigue 2
+			Blindness
+					300t
+					300t
+					200t
+							Potion of Isolation
+							This will show them for n/ forgetting you!
+									Curse of Vanishing
+											1
+													12362940
+	splash_potion
+			Slowness 2
+			Mining Fatigue 2
+			Blindness
+					300t
+					300t
+					200t
+							Potion of Isolation
+							This will show them for n/ forgetting you!
+									Curse of Vanishing
+											1
+													12362940
+	splash_potion
+			Slowness 2
+			Mining Fatigue 2
+			Blindness
+					300t
+					300t
+					200t
+							Potion of Isolation
+							This will show them for n/ forgetting you!
+									Curse of Vanishing
+											1
+													12362940
+###KURT
+	player_head
+			Kurt
+			Farlands or bust!
+					Protection 1
+					Curse of Binding
+					Curse of Vanishing
+							X
+									X
+											kurtmac head
+	leather_chestplate
+			X
+					Curse of Vanishing
+							X
+									X
+											11444087
+	leather_leggings
+			X
+					Curse of Vanishing
+							X
+									X
+											11444087	
+	leather_boots
+			X
+					Curse of Vanishing
+							X
+									X
+											11050871		
+	team specific:
+	wolf_spawn
+			Juno
+			Do dogs lay eggs?
+					Curse of Vanishing
+							X
+									X
+											Name: Juno
+											Health: 30
+											Angry: 1
+											movementSpeed: 0.4f
+											attackDamage: 6.0
+											CustomNameVisible: true
+											leather boots: no armor, but feather falling
+											Team: ?
+													4
+	iron_bars
+			Iron Kurtain
+			Nothing gets past the n/ IRON Kurtain
+					Unbreaking 10
+					Curse of Vanishing
+							X
+									X
+											X
+													18
+	bone
+			Bully Stick
+			Yum
+					Curse of Vanishing
+							X
+									X
+											X
+													64
+	bone
+			Rawhide Treat
+			I wonder if it tastes good...
+					Sharpness 2
+					Curse of Vanishing
+							Offhand: 3.0 armor
+###NEBRIS
+	player_head	
+			Nebris
+			Cheatlord
+					Protection 1
+					Curse of Binding
+					Curse of Vanishing
+							X
+									X
+											Nebris Head
+	leather_chestplate
+			X
+					Curse of Vanishing
+							X
+									X
+											3488836
+	leather_leggings
+			X
+					Curse of Vanishing
+							X
+									X
+											3488836	
+	leather_boots
+			X
+					Curse of Vanishing
+							X
+									X
+											3488836
+	stone sword	
+			Sword of Justice
+			Forged from a stone of n/ JUSTICE
+					Sharpness 2
+					Fire Aspect 1
+					Sweeping Edge 2
+					Curse of Vanishing
+									16/131,RepairCost:13
+	potion
+			Speed 11
+			Luck 5
+					60t
+					1200t
+							Cheater's Brew
+							Wouldn't be surprised if this n/ was spawned in
+									Curse of Vanishing
+											1
+													3551286
+	team-specific:
+	spawn_vindicator
+			Cheated Defense
+			Handcrafted to do the job n/ for you!
+					Curse of Vanishing
+							X
+									X
+											Health: 25
+											knockbackResistance: 0.1
+											attackDamage: 8
+											Team: ?
+###SETH
+	player_head
+			Sethbling
+			Yes, his last name is Bling
+					Protection 1
+					Curse of Binding
+					Curse of Vanishing
+							X
+									X
+											SkullOwner:{Id:"c3b2e68d-c4fe-4cb0-aed4-cf77aa6c7c6f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRjODczYzlkZTFhODQxYTVmZTU0MmE5YzRjYTk2NWI4Yjk1NDViMjEyMWYxYWYyZTU3ZTUzNjg1OWYxODUifX19"}]}}
+	leather_chestplate
+			X
+					Curse of Vanishing
+							X
+									X
+											13706053
+	golden_leggings
+			Heavy Bling
+			Your bling is so heavy n/ it hurts to wear!
+					Curse of Binding
+					Curse of Vanishing
+							Legs: -4.0d maxHealth
+							Legs: -3.0d armor
+							Legs: -0.02d movementSpeed
+	leather_boots
+			X
+					Curse of Vanishing
+							X
+									X
+											13706053
+	player_head
+			TNT Packed Grenade
+			Stuffed to the brim with explosives! n/ Just throw and see what happens!
+					Curse of Vanishing
+							X
+									X
+											SkullOwner:{Id:"3d80d659-36cd-4aee-8540-8cdb548ede75",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FmNTk3NzZmMmYwMzQxMmM3YjU5NDdhNjNhMGNmMjgzZDUxZmU2NWFjNmRmN2YyZjg4MmUwODM0NDU2NWU5In19fQ=="}]}}
+													2
+	tnt
+			Boom
+			BREEC- wait wrong mindcracker
+					Curse of Vanishing
+							X
+									X
+											X
+													2
+	redstone_block
+			X
+					Curse of Vanishing
+							X
+									X
+											X
+													2
+	paper
+			Natural Ability
+			Seth's bling has a constant shine, n/ thus he is able to be seen from miles away! n/ Note: This item isn't needed.
+	team-specific:
+	spawn_creeper
+			Seething Seth
+			TNT in a bottle
+					Power 10
+					Curse of Vanishing
+							X
+									X
+											Fuse: 12
+											ExplosionRadius: 6
+											CustomName: Seething Seth
+											CustomNameVisible: true
+											Glowing: true
+											Team: ?
+													2
+###BAJ
+	player_head
+			Baj
+			Woot Woot
+					Protection 1
+					Curse of Binding
+					Curse of Vanishing
+							X
+									X
+											SkullOwner:{Id:"17da801b-ebb0-4f78-8c2e-3630484c2352",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2RjNzdjNDM3YWVlMjYzYTJlOGFjMTFmMjJiNjcyZjQ1M2MzOGFlM2E2ZWRhZjkwZjYxYzdjZDdlYjcxNCJ9fX0="}]}}
+	leather_chestplate
+			X
+					Curse of Vanishing
+							X
+									X
+											8289145
+	leather_leggings
+			X
+					Curse of Vanishing
+							X
+									X
+											8289145
+	leather_boots
+			X
+					Curse of Vanishing
+							X
+									X
+											8289145				
+	popped_chorus_fruit
+			Weird Plant Popcorn
+			When you're hungry n/ anything looks good
+					Curse of Vanishing
+							X
+									X
+											X
+													12
+	lingering_potion
+			Saturation 3
+					undefined
+							Liquid Nutrient
+							Just splash some on the ground
+									Power 5
+									Curse of Vanishing
+											1
+													9106944
+	beetroot_soup
+			Boiling Hot Soup
+			So hot it'll get your n/ nose running!
+					Curse of Vanishing
+							Offhand: 0.5d attackSpeed
+							Offhand: 0.1d movementSpeed
+							Offhand: 0.2d attackDamage
+	stick
+			Old Man's Cane
+			He isn't getting any younger!
+					Knockback 2
+					Sharpness 3
+					Curse of Vanishing
+							Mainhand: 1.0d armor
+	paper
+			Natural Ability
+			Having eaten a feast fit for kings, n/ this old man will never need to eat again! n/ Note: This item is not needed.
+###ARKAS
+	player_head
+			Arkas
+			An adept Norwegian Troll.
+					Protection 1
+					Curse of Binding
+					Curse of Vanishing
+							X
+									X
+											SkullOwner:{Id:"95a4da86-43bf-4598-9352-077fc43c7196",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTExYzRmNjU5ZGYzZWE4NTNiYjE2OWVmNGE4Y2FhNDQ4YzA4MjU5ODcxYTE4ZjQ3YWM2NWE1NzdiMmUzYTcifX19"}]}}
+	leather_chestplate
+			X
+					Curse of Vanishing
+							X
+									X
+											4862993
+	leather_leggings
+			X
+					Curse of Vanishing
+							X
+									X
+											4862993
+	leather_boots
+			X
+					Curse of Vanishing
+							X
+									X
+											4273169
+	black_glazed_terracotta
+			Trolly Pretty Block
+			Who says defense can't n/ be pretty AND functional? n/ Step on this to learn a new trick!
+					Unbreaking 10
+					Curse of Vanishing
+							X
+									X
+											X
+													2
+	lingering_potion
+			Instant Damage
+					undefined
+							Bottle of Troll
+							Try it on your team!
+									Curse of Vanishing
+	cyan_glazed_terracotta
+			Fake Block
+			Made of air. Place it down level with the ground n/ and watch the trolling being.
+					Unbreaking 1
+					Curse of Vanishing
+							X
+									X
+													2
+	lingering_potion
+			Strong Poison
+					undefined
+							Advanced Bottle of Troll
+							Kappa
+									Curse of Vanishing
+	magenta_glazed_terracotta
+			Phase Bridge Block
+			Point the arrow the way you n/ wanna go and hop on! n/ WARNING: You only get one!
+					Curse of Vanishing
+							X
+									X
+###COESTAR
+	player_head
+			Coestar
+			A skilled Bowman
+					Protection 1
+					Curse of Binding
+					Curse of Vanishing
+							X
+									X
+											SkullOwner:{Id:"e01da300-6e93-4bbe-bd8a-ff82777089b2",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDFmOGM1ODExMjE4ZjE3YTEzMWE4MTI0NmE1N2JjZjM5ZjU2ZWI2N2E0NTZhZjNjM2NlYWI4M2E3ZGM0MWVmIn19fQ=="}]}}
+	leather_chestplate
+			X
+					Curse of Vanishing
+							X
+									X
+											1055069
+	leather_leggings
+			X
+					Curse of Vanishing
+							X
+									X
+											1055069
+	leather_boots
+			X
+					Curse of Vanishing
+							X
+									X
+											1055069
+	bow
+			Bow of Eh
+			Bow for Bow-star
+					Looting 4
+					Punch 1
+					Power 4
+					Curse of Vanishing
+							X
+									14/384,RepairCost:10
+	spectral_arrows
+			Sp00ky Arrows
+			Puff the magic arrows
+					Curse of Vanishing
+							X
+									X
+											X
+													12
+	tipped_arrow
+			Slowness 3
+			Weakness
+					800t
+					800t
+							Green Shell
+							Get kart'd
+									Curse of Vanishing
+											3
+													1244970
+	tipped_arrow
+			Mining Fatigue 3
+					1920t
+							Cobweb-on-a-stick
+							Good luck getting out of this one! n/ Slows mining and attack speed. 
+									Curse of Vanishing
+											3
+													16711671	
+###PYRO													
+	player_head
+			Pyrao
+			Roar
+					Protection 1
+					Curse of Binding
+					Curse of Vanishing
+							X
+									X
+											Pyro Head
+	leather_chestplate
+			X
+					Curse of Vanishing
+							X
+									X
+											2912288
+	leather_leggings
+			X
+					Curse of Vanishing
+							X
+									X
+											2912288
+	leather_boots
+			X
+					Curse of Vanishing
+							X
+									X
+											2914592
+	totem_of_undying
+			Coder's Masterkey
+			A backdoor into minecraft's n/ source code
+					Power 10
+					Curse of Vanishing
+	ghast_tear
+			Isaac's Tears
+			Collected straight from n/ the source
+					Curse of Binding
+					Fire Aspect 1
+					Sharpness 2
+					Curse of Vanishing
+							Mainhand: +100% armorToughness
+	paper
+			Natural Ability
+			Years of gradual exposure have n/ granted Pyro an immunity to flames. n/ Note: This item is not needed.
+					Curse of Vanishing
+###CHAD
+	player_head
+			Chadwick
+			A red haired maniac
+					Protection 1
+					Curse of Binding
+					Curse of Vanishing
+							X
+									X
+											Chad Head
+	leather_chestplate
+			X
+					Curse of Vanishing
+							X
+									X
+											14689830
+	leather_leggings
+			X
+					Curse of Vanishing
+							X
+									X
+											14689830
+	leather_boots
+			X
+					Curse of Vanishing
+							X
+									X
+											14689830
+	book
+			OMGSOS
+			The minecraft youtuber needs help n/ in minecraft... throw this to help out n/ WARNING: You only get one!
+					Curse of Vanishing
+	glowstone_dust
+			Glitter Bomb
+			Cause why not n/ Just toss it!
+					Curse of Vanishing
+	red_dye
+			Red Hair Dye
+			Distract your enemies n/ by throwing this on the ground!
+					Curse of Vanishing
+							X
+									X
+											X
+													4
+###JSANO
+	player_head
+			JSANO
+			Hero by day n/ Hero by night!
+					Protection 1
+					Curse of Binding
+					Curse of Vanishing
+							X
+									X
+											SkullOwner:{Id:"6e6acd2c-36dd-49a3-ab24-d57c72dc5d2a",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTlmNGUyNDcyZjhmYmVhNDMwZmU3ZTFiZWYyNDU4OTI1MzIzZjdmMmRkMGE0YTRmMmExM2FiOWY0MTAzMzk2In19fQ=="}]}}
+	leather_chestplate
+			X
+					Curse of Vanishing
+							X
+									X
+											16777215
+	leather_leggings
+			X
+					Curse of Vanishing
+							X
+									X
+											13706053
+	leather_boots
+			X
+					Curse of Vanishing
+							X
+									X
+											16777215
+	iron_axe
+			Fireman's Axe
+			Breakin' doors and shit
+					Sharpness 1
+					Curse of Vanishing
+							Mainhand: -3.0 attackSpeed
+							Mainhand: 8.0 attackDamage
+							Mainhand: -0.02d movementSpeed
+	elytra
+			Emergency Medevac
+			The saving never stops
+					Protection 1
+					Curse of Vanishing
+							X
+									32/432,RepairCost:100
+	water_bucket
+			Water
+			Hydration. The answer.
+					Mending 10
+					Curse of Vanishing
+							Offhand: 3.0 maxHealth
+	potion
+			Strength
+			Regeneration 3
+			Resistance 2
+					140t
+					300t
+					400t
+							Banana Bag
+							Panacea itself.
+									Curse of Vanishing
+											1
+													14544707
+	tipped_arrow
+			healing
+					undefined
+							Adrenaline Shot
+							Hope it helps more than n/ it hurts!
+									Power 10
+									Curse of Vanishing
+											12
+	spawn_villager
+			Cheated Defense?
+			Why would you spawn this in?
+					X
+							X
+									X
+											CustomName: Wigbob
+											ShowCustomName: True
+											Age: 8000000
+											Drops: Wig[It's Wet], Wigwater[I dare you.]{Nausea, Weakness, Bad Luck, Bad Omen, HideFlags:32}
+											ActiveEffects: Regeneration 2, Resistance 2, hide particles
+											Knockback Resistance: 1.0
+											VillagerData: Nitwit, type: snow
+###AUREY
+	player_head
+			Aurey
+			Will kill you creatively.
+					Protection 1
+					Curse of Binding
+					Curse of Vanishing
+							X
+									X
+											Aurey Head
+	leather_chestplate
+			X
+					Projectile Protection 5
+					Curse of Binding
+					Curse of Vanishing
+							Chest: -4.0 armor
+							Chest: -1.0 armorToughness
+							Chest: -0.5 attackSpeed
+									X
+											400000
+	leather_leggings
+			X
+					Projectile Protection 5
+					Curse of Binding
+					Curse of Vanishing
+							Chest: -4.0 armor
+							Chest: -1.0 armorToughness
+							Chest: -0.5 attackSpeed
+									X
+											6494845											
+	crossbow
+			Artemis
+			Held in the offhand, n/ this crossbow grants special powers n/ to ANY projectiles it fires. n/ Rejects other users.
+					Piercing 3
+							X
+									Unbreakable
+											Gives special effects to Cruel Bolt, Fairy Bolt, Final Glitterworks.
+											Gives acceleration to all other arrows fired, doubling their speed.
+											Gives extended life to all other fireworks fired.
+	tipped_arrow
+			water
+					undefined
+							Fairy Bolt
+							Fired from Artemis, fairies will n/ appear where this hits. n/ WARNING: Fairies don't pick sides.
+									Curse of Vanishing
+											16775931
+													6
+															HideFlags:32
+															Summons 2 Vex above the point where it lands.
+	tipped_arrow
+			water
+					undefined
+							Cruel Bolt
+							Fired from Artemis, causes blindness n/ and slowness if the target has n/ a bow in either hand.
+									Curse of Vanishing
+											8855049
+													12
+															HideFlags:32
+															Raytraces targets and, if they have a bow in either hand, applies effects.
+															Effects:
+															Blindness, 10 seconds
+															Slowness 3, 10 seconds
+	team-specific:
+	firework_rocket
+			Final Glitterworks
+			A prayer of beautiful death. n/ Bonus effects when fired from Artemis.	[lore is red or blue, based on team]
+					Curse of Vanishing
+							X
+									X
+											Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;16776985],FadeColors:[I;8792575]},{Type:0,Flicker:1b,Trail:1b,Colors:[I;16713769],FadeColors:[I;16744661]},{Type:4,Flicker:1b,Trail:1b,Colors:[I;15990599]}]}}
+													1
+															Summons 7 small particle clouds which fire rockets at the enemy team, one at a time, once every 4 ticks for 20 seconds
+	paper
+			Natural Ability
+			Excessive glitter use has resulted in n/ a permanent glowing aura. n/ Note: This item is not needed.
+			

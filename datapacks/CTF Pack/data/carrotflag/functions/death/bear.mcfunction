@@ -1,0 +1,21 @@
+scoreboard players set @s CD 0
+
+
+replaceitem entity @s armor.head minecraft:player_head{display:{Name:'{"text":"Bear Suit","color":"white","italic":false}',Lore:['{"text":"Maybe someone will throw"}','{"text":"$300 your way"}']},Enchantments:[{id:"minecraft:protection",lvl:1s},{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:vanishing_curse",lvl:1s}],SkullOwner:{Id:"9cbf1d20-53c2-4f50-9cfe-5eff34e5360d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFiMTc4ZjVjZGQ3NTBmMGUzNTY4NjBhYTU1MzkxNTNlYjJhYmVjMWUxNDZjYTU3YzY1ZDI1YTVkZjhmZGZlIn19fQ=="}]}}} 1
+
+execute if predicate carrotflag:70chance run replaceitem entity @s armor.chest minecraft:leather_chestplate{display:{color:16777215},Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s},{id:"minecraft:protection",lvl:1s}]} 1
+
+execute if predicate carrotflag:70chance run replaceitem entity @s armor.legs minecraft:leather_leggings{display:{color:16777215},Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s},{id:"minecraft:protection",lvl:1s}]} 1
+
+execute if predicate carrotflag:70chance run replaceitem entity @s armor.feet minecraft:leather_boots{display:{color:16777215},Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s},{id:"minecraft:protection",lvl:1s}]} 1
+
+execute if predicate carrotflag:20chance run give @s[team=Red] minecraft:polar_bear_spawn_egg{display:{Name:'{"text":"Papa Bear"}',Lore:['{"text":"Someone forgot their bread and milk."}']},Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s}],EntityTag:{Team:"Red",Tags:["fakebear"],DeathLootTable:"carrotflag:null",PersistenceRequired:1b,Aggro:1b,Attributes:[{Name:generic.followRange,Base:24},{Name:generic.knockbackResistance,Base:0.8},{Name:generic.movementSpeed,Base:0.3},{Name:generic.armor,Base:5},{Name:generic.attackKnockback,Base:0.1}]}} 1
+execute if predicate carrotflag:20chance run give @s[team=Blue] minecraft:polar_bear_spawn_egg{display:{Name:'{"text":"Papa Bear"}',Lore:['{"text":"Someone forgot their bread and milk."}']},Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s}],EntityTag:{Team:"Blue",Tags:["fakebear"],DeathLootTable:"carrotflag:null",PersistenceRequired:1b,Aggro:1b,Attributes:[{Name:generic.followRange,Base:24},{Name:generic.knockbackResistance,Base:0.8},{Name:generic.movementSpeed,Base:0.3},{Name:generic.armor,Base:5},{Name:generic.attackKnockback,Base:0.1}]}} 1
+
+execute if predicate carrotflag:50chance run give @s minecraft:splash_potion{display:{Name:'{"text":"Speedy Freeze"}',Lore:['{"text":"It gets chilly up north..."}']},Enchantments:[{id:"minecraft:vanishing_curse",lvl:1s}],Potion:"minecraft:slowness"} 1
+
+execute if predicate carrotflag:50chance run give @s minecraft:quartz{display:{Name:'{"text":"Bear Claw","italic":false}',Lore:['{"text":"Run","color":"red"}']},Enchantments:[{id:"minecraft:sharpness",lvl:4s},{id:"minecraft:vanishing_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:1,Operation:0,UUIDLeast:343826,UUIDMost:736407,Slot:"offhand"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Amount:1,Operation:0,UUIDLeast:595421,UUIDMost:169673,Slot:"offhand"},{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:0.03,Operation:0,UUIDLeast:474358,UUIDMost:989338,Slot:"offhand"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Amount:-2.5,Operation:0,UUIDLeast:627743,UUIDMost:757115,Slot:"mainhand"}]} 1
+
+execute if predicate carrotflag:50chance run give @s minecraft:lingering_potion{display:{Name:'{"text":"Bear Brew"}',Lore:['{"text":"Makes em prime targets"}']},CustomPotionEffects:[{Id:15b,Amplifier:0b,Duration:560},{Id:24b,Amplifier:0b,Duration:2000}],Potion:"minecraft:thick",CustomPotionColor:16777215} 1
+
+execute if predicate carrotflag:40chance run give @s minecraft:carrot_on_a_stick{display:{Name:'{"text":"Ice Wand","color":"blue","italic":false}',Lore:['{"text":"Traps players in ice!"}','{"text":"Protean Item","color":"dark_aqua","italic":false}']},HideFlags:1,Enchantments:[{id:"minecraft:power",lvl:1s},{id:"minecraft:vanishing_curse",lvl:1s}]} 1

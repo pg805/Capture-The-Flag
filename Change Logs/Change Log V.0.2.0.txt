@@ -1,0 +1,135 @@
+First list is a technical summary. Second list is for end users(IE general players).
+
+
+CHANGE LOG:
+
+-Added simple redstone logic gate to "ready" detection, simplifying the needed function
+
+-Converted most remaining command blocks to functions(Including most of the ones around the lobby zone, and the anti-TNT ones under the flags)
+
+-Destroyed/deleted obsolete command blocks/functions
+
+-Updated existing functions to 1.15.1 syntax
+
+-Updated shop sign to 1.15.1 syntax and changed clickEvent to a single trigger command that handles everything else
+
+-Simplified shop function using new arguments
+
+-Replaced multiple timers with /schedule functions or loops
+
+-Changed respawn time calculation
+
+-Respawn time addition has been changed from one second to four seconds per death.
+
+-Decorated the Afterlife
+
+-Modified respawn lobby to reduce unnecessary teleports and apply restrictive effects
+
+-Added a secondary master function that operates at a one second frequency, to reduce server load on functions that aren't time sensitive
+
+-Added comments to most of the functions I worked with
+
+-Created a loot box index, a txt file located in the lootchests folder
+
+-Simplified loot chest rarity calculation to use predicate RNG, and converted preset loot chests to three loot tables with randomized output. Carried over chest contents to the tables.
+
+-Implemented selective denial arguments into class selection, allowing the removal of the 'limiter' function
+
+-Converted all instances of "Green" team to "Red" team, matching visual color
+
+-Created a class index, listing all of the items used by a given class, a txt file located in the class folder
+
+-Added Aureylian, an anti-ranger ranger class. Very glass cannon.
+
+-Made dropped flags "immortal" to fire, lava, explosions, etc
+
+-Updated Class score numbers to mirror that of the clicker scores
+
+-Health Stations can now be used to restore health. They restore two hearts per five seconds standing on the plate, raise the cooldown by twelve seconds, and do nothing if the cooldown count is at or above 60 seconds. In other words, you can "store" up to five health charges, but if all the charges are used up, it takes 12 seconds between uses.
+
+-Class items are now returned on death according to RNG, with a percentage based on item tier.
+
+-Class items can now be gained at Class Stations, at a percentage rate based on item tier. Use and cooldown is similar to Health Stations, but at six uses per minute rather than five. 
+
+-Class Stations can only be used twelve times before the wall falls, six during the first 15 minutes and another six in the last 15 minutes.
+
+-When at a Class Recharge Station, the following items have a 50% chance per Recharge of being swapped out for one with original durability: Bore's Diamond Pick, Coe's Bow, JSano's Elytra, Nebris' Sword. This is on top of the base 20% chance of getting a new one.
+
+-Four Recharge Shrines per team contribute towards reducing the Class Station cooldown. One Shrine is permanently active, the other three can be deactivated by the other team by standing on the carpet beneath them for ten seconds. Moving away from the Shrine resets the timer. A deactivated Shrine will become active again after three minutes, but cannot contribute during this time. Shrines contribute equally, so each missing Shrine reduces cooldown rate by 25%.
+
+-A new team-specific bossbar shows how many Class Station charges are currently available.
+
+-Rebuilt all of the the Arkas block functions. 
+
+-Arkas's 'Fake Block' now turns into a grass block with no collision if stepped on
+
+-Created an index and function for detecting held items(mainHand and offHand, separately) to simplify the process and streamline future additions
+
+-Added a "protean" system for using carrots-on-sticks to raycast and motioncast custom projectiles, to reduce tracking issues for custom projectiles and to allow for future additions of spellcasting, firearms, or whatever may be wanted.
+
+-Added a "Player Detector" craftable item. When placed, it lasts 15 minutes and alerts the owning team when an enemy is within 10 blocks. Can be seen but not destroyed.
+
+-Simplified Team Randomizer to use one function that loops until completion
+
+-Added a Class Randomizer, can be done by an individual, or worldwide by an admin
+
+-Voided crafting recipes for Arkas blocks and team-colored banners by making them only craftable using themselves as input
+
+-Updated Admin, Class Selection, and Custom Recipe books
+
+-Updated Admin book to use clicker scores, meaning all of its commands are now stored in functions
+
+-Added new lootchest items based on things added to the game since 1.12
+
+-Changed Lobby effects to only give Saturation if at less than max "hunger". Leaving it on permanently leads to serious overfeeding.
+
+
+
+
+====================================================================
+====================================================================
+
+
+
+
+NOOB CHANGE LOG:
+
+-Map updated and optimized to latest command syntax
+
+-Fixed many bugs, introduced a few unknown ones.
+
+-Dropped Flags are now invulnerable to explosions, fire, and lava. They are still reset if left on the ground too long. 
+
+-Added a new class: Aureylian. She is frail but immune to arrows, and has a crossbow and special ammo designed to counter Rangers. 
+
+-New Health Stations can be used to restore lost health. It takes five seconds to charge(by standing inside), and gives two hearts per charge. 
+
+-New Class Stations can be used to gain Class Items. It takes five seconds to charge(by standing inside), and gives an RNG-based roll on all items specific to your class. The stronger the item, the lower the chance. 
+
+-The new stations have their own team-specific cooldowns. There is a cooldown buffer, allowing up to five Health Station charges and six Class Station charges to be "stored". Cooldown rates are twelve second for Health Stations, ten seconds for Class Stations.
+
+-Class Stations can only be used twelve times before Wall Fall, six during the first fifteen minutes and six during the second fifteen minutes. This is to prevent amassing of items before the game begins.
+
+-When at a Class Station, the following items have a 50% chance per station use of being swapped out for one with original durability: Bore's Diamond Pick, Coe's Bow, JSano's Elytra, Nebris' Sword. This is on top of the base 20% chance of getting a new one.
+
+-Four new Shrines(marked by Ender Crystals) per side contribute to Class Station cooldown rate. One is part of the Station itself and is always active. The other three can be disabled individually by the other team by standing on the carpet beneath them for ten consecutive seconds. Once disabled, the Shrine will become inactive for three minutes, reducing cooldown rate by 25% of the total. A light above the Shrines denotes their current state.
+
+-Dying now adds four seconds to respawn time, instead of one.
+
+-Death now returns class items on an RNG basis. Rates are similar to Class Stations. 
+
+-Added a "Random" option to the Class Selection book.
+
+-Added an admin ability to randomize Class for all players at once. By default this removes the Class Selection book from players, but they can be returned by an admin. 
+
+-Added a Player Detector, view the Recipe Book to learn more
+
+-Changed the false block, a class item of Arkas. It now turns into a grass block with no collision if stepped on. 
+
+-Changed Frozen Water, a class item of Bear. Now uses a carrot-on-a-stick to launch snowballs, instead of actual snowball items. Cannot be used by other Classes. It now has a charge system, where "Mana" is built up naturally over time and is consumed on use.
+
+-Rebalanced a few class items.
+
+-Added new lootchest items based on additions to Minecraft since 1.12
+
+-Other than the changes listed, a few aspects of the game may feel slightly different. This is due to the significant number of commands that have been converted, rewritten, and/or removed. An effort has been made to replicate the original functional design of the map as much as possible.

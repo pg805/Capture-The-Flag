@@ -1,0 +1,1 @@
+#Empty for now, but could hold the data for each hidden chest in the map

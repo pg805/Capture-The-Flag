@@ -1,0 +1,61 @@
+First list is a technical summary. Second list is for end users(IE general players).
+
+
+CHANGE LOG:
+
+-Fixed a wallfall bug where it wouldn't replace the grass blocks properly.
+
+-Traded Lootcrates now have name and lore tags, meaning they are now detected properly.
+
+-Fixed issue with turrets where the command would detect a player from each team and spawn two turrets at once. Now uses a split argument to target *only* the literal nearest player for detection purposes.
+
+-Added a teleport to move spectators to the map when the game starts
+
+-Spectators no longer get set to survival when the game starts
+
+-Fixed coordinate for detection of Blue stations.
+
+-Made the Construction function for the falling blocks overlayed on barrier blocks run on a scheduled loop every three in-game days. This is to prevent despawning and make their life essentially infinite.
+
+-Doubled the numbers involved in Class Station charging, but kept charge rate the same, essentially doubling the cooldown period but allowing the same number of charges to be stored.
+
+-Increased the downtime of Shrines from three minutes to five, making captures more effective.
+
+-Added actionbar titles messages stating whether you are currently capturing a Shrine, and a 'ding' and message when capture is complete.
+
+-Lobby parkour has been repaired
+
+-Barriers have been added to the Class Selection lobbies to prevent leaving the areas or interacting with the other team
+
+-Added a text armorstand to Class Selection lobbies to warn against using items
+
+-Removed ten obsolete scoreboards
+
+-Added a cap to respawn time at an experimental 60 seconds. This is reached after 15 deaths under the current scheme.
+
+-Reduced the Luck from Nebris's cheated potion from 5 to 2. Luck is now part of lootchests and the potion was overpowered for this purpose.
+
+-Fixed a bug where Final Glitterworks rockets were gaining the lifetime boost meant for vanilla rockets
+
+
+
+
+====================================================================
+====================================================================
+
+
+
+
+NOOB CHANGE LOG:
+
+-Shop lootchests are fixed.
+
+-Turrets should now spawn on the correct team.
+
+-Blue Team stations now work as intended.
+
+-Changed the cooldown rate on Class Stations from ten seconds to twenty. 
+
+-Added notification to Shrine Capturing, to make it more clear to the capturer that it is happening.
+
+-Respawn time capped at 60 seconds, with 15 deaths. This is arbitrary and will be changed depending on how it works out.

@@ -1,0 +1,1 @@
+execute as @a[scores={purgatory=1..}] run function carrotflag:respawn/purgatory

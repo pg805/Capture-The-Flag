@@ -1,0 +1,31 @@
+{
+  "rewards": {
+    "function": "carrotflag:items/artemiscruel"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "type": "minecraft:player",
+            "equipment": {
+              "offhand": {
+                "item": "crossbow",
+                "nbt": "{display:{Name:'{\"text\":\"Artemis\",\"color\":\"dark_green\",\"italic\":false}}',Lore:['{\"text\":\"Held in the offhand, this\"}','{\"text\":\"crossbow grants special powers\"}','{\"text\":\"to ANY projectiles it fires.\"}','{\"text\":\"Rejects other users.\",\"color\":\"dark_red\",\"bold\":true}']}}"
+              },
+              "head": {
+                "item": "player_head",
+                "nbt": "{display:{Name:'{\"text\":\"Aurey\",\"color\":\"dark_purple\",\"italic\":false}'}}"
+              }
+            }
+          },
+          "direct_entity": {
+            "nbt": "{Color:8855049}"
+          }
+        }
+      }
+    }
+  }
+}

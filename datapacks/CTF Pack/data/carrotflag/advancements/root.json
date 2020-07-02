@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "carrot": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

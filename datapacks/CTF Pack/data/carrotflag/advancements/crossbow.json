@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "carrotflag:items/artemistrigger"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "nbt": "{display:{Name:'{\"text\":\"Artemis\",\"color\":\"dark_green\",\"italic\":false}',Lore:['{\"text\":\"Held in the offhand, this\"}','{\"text\":\"crossbow grants special powers\"}','{\"text\":\"to ANY projectiles it fires.\"}','{\"text\":\"Rejects other users.\",\"color\":\"dark_red\",\"bold\":true}']}}"
+        }
+      }
+    }
+  }
+}

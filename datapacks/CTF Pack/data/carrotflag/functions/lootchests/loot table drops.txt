@@ -1,0 +1,411 @@
+####FORMAT
+	ItemType
+			ItemName
+			ItemLore
+					Enchantment1
+					EnchantmentX
+							Attribute1
+							AttributeX
+									Durability
+											Color/HeadType
+											
+	Potions:
+	ItemType
+			PotionType1
+			PotionTypeX
+					PotionDuration1
+					PotionDurationX
+							ItemName
+							ItemLore
+									EnchantmentX
+						
+	Enchanted Books:
+	ItemType
+			StoredEnchant
+				
+			
+####COMMON
+	dead_bush
+	sand
+	stone
+	coal_ore
+	iron_ore
+	iron_ingot
+	gold_ingot
+	gold_block
+	coal
+	charcoal
+	sunflower
+	stone_button
+	iron_bars
+	stone_bricks
+	book
+	bookshelf
+	vine
+	jungle_leaves
+	emerald
+	emerald_block
+	apple
+	oak_log
+	oak_leaves
+	lapis_lazuli
+	lapis_block
+	spruce_leaves
+	acacia_leaves
+	stick
+	string
+	cobweb
+	oak_sapling
+	dark_oak_sapling
+	dark_oak_log
+	arrow
+	cobblestone
+	light_gray_stained_glass
+	glass_bottle
+	beef
+	leather
+	furnace
+	coal_block
+	
+	glowstone_dust
+			Glitter Bomb
+			Cause why not n/ Just toss it!
+					Curse of Vanishing
+	red_dye
+			Red Hair Dye
+			Distract your enemies n/ by throwing this on the ground!
+	stone_pickaxe
+			Rick the Pick
+			Don't break him!
+					Efficiency 2
+					Fortune 1
+	stone_button
+			Useless Button
+			...still useless
+	chainmail_boots
+			Steel-Toed Boots
+			X
+					Protection 1
+							X
+									105
+	stick
+			Stick
+			Stick
+					Sharpness 2
+					Curse of Vanishing
+	chainmail_leggings
+			Steel Wool Pants
+			Scratchy.
+					X
+							X
+									105
+	chainmail_chestplate
+			Reinforced Plate
+			X
+					Protection 1
+					X
+							X
+									140
+	bow
+			Broken Bow
+			X
+					Power 1
+					X
+							X
+									84
+	iron_boots
+			Iron Flip Flops
+			X
+					Protection 1
+					X
+							X
+									95
+	iron_chestplate
+			X
+					X
+							X
+									230
+	iron_leggings
+			X
+					X
+							X
+									175
+	leather_boots
+			X
+					Projectile Protection 3
+					X
+							X
+									X
+											#0FFFFF
+	leather_chestplate
+			Leather Tunic
+			X
+					Protection 2
+					X
+							X
+									X
+											#000123
+	leather_leggings
+			Leather Pants
+			X
+					Protection 2
+					Fire Protection 2
+							X
+									X
+											#000885
+	nether_brick
+			Instant Construction Crew
+			*Constant drill sounds*
+					Curse of Vanishing
+					
+	splash_potion
+			Weakness 1
+					90s
+	splash_potion
+			Instant Damage 1
+										
+	enchanted_book
+			Thorns 3
+	enchanted_book
+			Protection 2
+	enchanted_book
+			Blast Protection 1
+	enchanted_book
+			Bane of Arthropods 2
+	enchanted_book
+			Projectile Protection 1
+	enchanted_book
+			Protection 1
+			
+
+####RARE
+	iron_ingot
+	iron_block
+	gold_ingot
+	gold_block
+	diamond
+	diamond_block
+	lapis_lazuli
+	lapis_block
+	enchanting_table
+	golden_apple
+	book
+	bookshelf
+	slime_block
+	gunpowder
+	sand
+	end_stone
+	chorus_plant
+	ender_pearl
+	blue_concrete
+	pink_concrete
+	black_concrete
+	red_concrete
+	gray_concrete
+	light_gray_concrete
+	paper
+	jukebox
+	oak_planks
+	spruce_planks
+	music_disc_mellohi
+	end_stone_bricks
+	white_stained_glass
+	redstone_lamp
+	arrow
+	bone_block
+	skeleton_skull
+	bread
+	stone_bricks
+	cracked_stone_bricks
+	cooked_beef
+	
+	
+	book
+			OMGCraft
+			The minecraft youtuber need help n/ in minecraft... throw this to help out n/ WARNING: You only get one!
+					Curse of Vanishing
+	slime_spawn_egg
+			Bob
+	slime_ball
+			Sticky Situation
+			So sticky it's not
+					Mending
+					X
+							Offhand:+0.02 Speed
+	player_head
+			TNT Packed Grenade
+			Stuffed to the brim with explosives! n/ Just throw and see what happens!
+					Curse of Vanishing
+					X
+							X
+									X
+											[tnt block]
+	cyan_glazed_terracotta
+			Trap Block
+			Place it down level with the ground n/ and watch your enemies (and team) n/ be trolled!
+	magenta_glazed_terracotta
+			Bridge of Glass
+			Point the arrow in the way you wanna go! n/ WARNING: You only get one!
+					Hidden Enchant
+	black_glazed_terracotta
+			Trolly Pretty Block
+			Who says defense can't n/ be pretty AND functional? n/ Step on this to learn a new trick!
+					Unbreaking X
+					Curse of Vanishing
+	ender_pearl
+			The Ender Ender 3.0
+			X
+					Curse of Vanishing
+	bow
+			Mighty Bow
+			Heh, not really
+					Power 1
+					Curse of Vanishing
+							X
+									84
+	beef
+			Angel Burger
+			Throw it under you to place it in the air!
+					Curse of Vanishing
+	end_crystal
+			Placeable Turret
+			Throw it to spawn a laser n/ turret where it lands!
+	vindicator_spawn_egg
+			Cheated Defense
+			Handcrafted to do the job n/ for you! Just click!
+	
+	
+	potion
+			Strength 1
+			Regeneration 3
+			Resistance 2
+					7s
+					15s
+					20s
+							Banana Bag
+							The perfect cure to... n/ well, anything
+									Curse of Vanishing
+	potion
+			Invisibility 1
+					180s
+							Potion of Forgetting
+							Who am I?
+	tipped_arrow
+			Instant Damage 1
+	potion
+			Levitation 2
+					45s
+							The Dropper
+							The fall down might not be as fun...
+									Curse of Vanishing
+	potion
+			Speed 10
+			Luck 5
+					3s
+					60s
+							Cheater's Brew
+							Wouldn't be surprised if this n/ was spawned in
+							
+
+####EPIC
+
+	apple
+	golden_apple
+	enchanted_golden_apple
+	stone
+	purpur_block
+	shulker_shell
+	bone_meal
+	bone
+	bone_block
+	book
+	bookshelf
+	stone_bricks
+	cracked_stone_bricks
+	fire_charge
+	glowstone
+	lava_bucket
+	iron_ingot
+	iron_block
+	anvil
+	obsidian
+	ender_chest
+	ender_eye
+	gunpowder
+	tnt
+	spawner
+	tnt_minecart
+	creeper_spawn_egg
+	
+	shulker_spawn_egg
+			Shulker Toss
+			Place these babies down and watch n/ the trolling begin!
+					Curse of Vanishing
+	bow
+			One Hit Wonder
+			Slightly used
+					Power 10
+					Punch 5
+							X
+									1
+	end_crystal
+			Placeable Turret
+			Throw it to spawn a laser n/ turret where it lands!
+	water_bucket
+			Lube Barrel	
+			50 gallons.
+	bedrock
+			Troller's Delight
+			Take That!
+					Unbreaking X
+	totem_of_undying
+			Coder's Masterkey
+			A backdoor into minecraft's n/ source code
+					Power X
+					Curse of Vanishing
+					
+					
+	
+	tipped_arrow
+			Instant Damage 2
+			
+			
+	enchanted_book
+			Power 5
+	enchanted_book
+			Sharpness 4
+	enchanted_book
+			Fire Aspect 2
+	enchanted_book
+			Infinity
+	enchanted_book
+			Flame
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

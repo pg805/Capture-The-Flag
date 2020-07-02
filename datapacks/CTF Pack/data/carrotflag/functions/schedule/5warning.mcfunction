@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"5 minutes","bold":true,"underlined":true,"color":"red"},{"text":" until the wall drop! ","bold":true,"color":"yellow"}]

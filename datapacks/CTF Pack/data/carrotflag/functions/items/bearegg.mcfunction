@@ -1,0 +1,6 @@
+#Swaps bear from egg with 
+
+execute if entity @e[tag=fakebear,limit=1,sort=nearest,distance=0..2,team=Red] run summon minecraft:polar_bear ~ ~ ~ {Team:"Red",PersistenceRequired:1b,Aggro:1b,Passengers:[{id:"minecraft:polar_bear",Team:"Red",PersistenceRequired:1b,Age:-1000000,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:600,ShowParticles:0b}]}],Attributes:[{Name:generic.followRange,Base:24},{Name:generic.knockbackResistance,Base:0.8},{Name:generic.movementSpeed,Base:0.3},{Name:generic.armor,Base:5},{Name:generic.attackKnockback,Base:0.1}]}
+execute if entity @e[tag=fakebear,limit=1,sort=nearest,distance=0..2,team=Blue] run summon minecraft:polar_bear ~ ~ ~ {Team:"Blue",PersistenceRequired:1b,Aggro:1b,Passengers:[{id:"minecraft:polar_bear",Team:"Blue",PersistenceRequired:1b,Age:-1000000,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:600,ShowParticles:0b}]}],Attributes:[{Name:generic.followRange,Base:24},{Name:generic.knockbackResistance,Base:0.8},{Name:generic.movementSpeed,Base:0.3},{Name:generic.armor,Base:5},{Name:generic.attackKnockback,Base:0.1}]}
+
+kill @e[tag=fakebear,limit=1,sort=nearest,distance=0..5]

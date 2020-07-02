@@ -1,0 +1,1 @@
+effect give @a[scores={offHand=1}] minecraft:haste 2 1 true

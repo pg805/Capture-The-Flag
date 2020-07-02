@@ -1,0 +1,2 @@
+function carrotflag:engine/wincondition
+function carrotflag:engine/flagbase
